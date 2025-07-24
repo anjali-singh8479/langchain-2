@@ -1,0 +1,63 @@
+# import firebase_admin
+# from firebase_admin import firestore
+from google.cloud import firestore
+from langchain_google_firestore import FirestoreChatMessageHistory
+from langchain_openai import ChatOpenAI
+from langchain_core.messages import HumanMessage, AIMessage, SystemMessage      
+from dotenv import load_dotenv
+from datetime import datetime
+load_dotenv()
+
+
+
+# Unique session per user or chat
+# session_id = "chat_session_" + datetime.now().strftime("%Y%m%d%H%M%S")
+project_id = "langchain-aa644"
+session_id="chat_session "+"user 2"
+collection = "Langchain_user_chats"
+
+
+client = firestore.Client(project=project_id)
+db = client.collection(collection)
+# Create a chat history object
+# chat_history_cloud= FirestoreChatMessageHistory(
+#     session_id=session_id,
+#     collection=collection,
+#     client=client,
+# )
+llm = ChatOpenAI(model="gpt-4o", temperature=0.7)
+
+print("Start chatting (type 'end' to stop):")
+
+# chathistory=[]
+# system_message=SystemMessage(
+#     content="You are a qubo agent and your task is to assist users in solving issues related to qubo devices and queries."
+# )
+# chathistory.append(system_message)
+chathistory=[
+    {"role": "system", "content": "You are a qubo agent and your task is to assist users in solving issues related to qubo devices and queries."},]
+while True:
+    user_query=input("Enter your query: ")
+    if(user_query.lower() == "exit"):
+        print("Exiting the chat. Goodbye!")
+        break
+    # chathistory.append(HumanMessage(content=user_query))
+    chathistory.append({"role": "user", "content": user_query})
+    response=llm.invoke(chathistory)
+    # chathistory.append(AIMessage(content=response.content))
+    chathistory.append({"role": "assistant", "content": response.content})
+    print(response.content)
+
+# document name is auto geneerated by firestore
+# db.add({
+#     "session_id": session_id,
+#     "timestamp": datetime.now().strftime("%Y%m%d%H%M%S"),
+#     "chat_history": chathistory
+# })
+
+# docment is defined here as session_id 
+db.document(session_id).set({
+    "session_id": session_id,
+    "timestamp": datetime.now().ctime(),
+    "chat_history": chathistory
+})

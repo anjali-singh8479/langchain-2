@@ -1,0 +1,40 @@
+{'bike cam qsg': 'https://www.quboworld.com/product-information/Bike-cam-user-manual.pdf'}
+{'vdb qsg link': 'https://www.quboworld.com/product-information/vdb-manual.pdf'}
+{'vdb pro qsg link': 'https://www.quboworld.com/product-information/VDB-PRO-User-Manual.pdf'}
+{'vdb ultra qsg link': 'https://www.quboworld.com/video-doorbell-product-information/vdb-ultra-manual.pdf'}
+{'cam 360/cam 360 2K qsg': 'https://www.quboworld.com/cam-360-product-information/cam-360-manual.pdf'}
+{'cam 360 ultra qsg': 'https://www.quboworld.com/cam-360-ultra-product-information/cam-360-ultra-manual.pdf'}
+{'bullet cam qsg': 'https://www.quboworld.com/product-information/Bulletcamera.pdf'}
+{'baby cam qsg': 'https://www.quboworld.com/babycam-product-information/babycam-manual.pdf'}
+{'outdoor camera qsg': 'https://www.quboworld.com/OSC-product-information/OSC-manual.pdf'}
+{'explore subscription': 'https://www.quboworld.com/subscription-plans?srsltid=AfmBOop-cU1PcMr1euOnMhE2OiSzdRCLihiHae2bwOkgrUxblpxPV9Xz'}
+{'dashcam pro qsg': 'https://www.quboworld.com/dashcam-product-information/dashcam-pro-manual.pdf'}
+{'dashcam pro x setup link': 'https://youtu.be/uYKfqxe0XpE'}
+{'dashcam pro gps setup link': 'https://youtu.be/zU9DEBfB8L0'}
+{'dashcam 4k setup link': 'https://youtu.be/Qt3FfA4Ehag'}
+{'dashcam 3k setup link': 'https://youtu.be/L-9YN2khlVw'}
+{'Installation Form': 'https://www.quboworld.com/device/installation'}
+{'dashcam pro setup link': 'https://youtu.be/zU9DEBfB8L0'}
+{'dashcam 2K qsg': 'https://www.quboworld.com/product-information/Dashcam-Pro-2K-User-Manual.pdf'}
+{'dashcam 2.7k qsg': 'https://www.quboworld.com/product-information/Dashcam-Pro-2.7k-F+R.pdf'}
+{'dashcam 4k qsg': 'https://www.quboworld.com/dashcam-product-information/dashcam-4k-manual.pdf'}
+{'no device is linked to your account': 'https://www.youtube.com/watch?v=Fz5eGs9ffM0&t=174s&ab_channel=Qubo-AHeroGroupVenture'}
+{'dashcam pro x qsg': 'https://www.quboworld.com/product-information/User-Manual-Dashcam-Pro-x.pdf'}
+{'dashcam pro gps qsg': 'https://www.quboworld.com/dashcam-product-information/dashcam-pro-gps-manual.pdf'}
+{'Installation Form Link (pincode serviable)': 'https://www.quboworld.com/qubo-installation-form'}
+{'VDB/VDB Ultra Installation Tutorial Link': 'https://www.youtube.com/watch?v=Fz5eGs9ffM0'}
+{'nova qsg': 'https://www.quboworld.com/product-information/Smart-Door-Lock-Nova.pdf'}
+{'rim lock qsg': 'https://www.quboworld.com/rim-lock-product-information/rim-lock-manual.pdf'}
+{'ultra and select qsg': 'https://www.quboworld.com/product-information/Smart-Door-Lock-Ultra-User-Manual.pdf'}
+{'essential qsg': 'https://www.quboworld.com/door-lock-product-information/door-lock-essential-manual.pdf'}
+{'elite qsg link': 'https://www.quboworld.com/door-lock-product-information/door-lock-elite-manual.pdf'}
+{'home tab qsg': 'https://www.quboworld.com/product-information/Qubo-Home-Tab-User-Manual.pdf'}
+{'purifier Q2000 qsg link': 'https://www.quboworld.com/product-information/airpurifier-Q200.pdf'}
+{'purifier Q500 qsg link': 'https://www.quboworld.com/product-information/airpurifier-Q500.pdf'}
+{'purifier Q400 qsg link': 'https://www.quboworld.com/product-information/airpurifier-Q400.pdf'}
+{'purifier Q600 qsg link': 'https://www.quboworld.com/product-information/QSG-Q600.pdf'}
+{'purifier Q1000 qsg link': 'https://www.quboworld.com/product-information/QSG-Q1000.pdf'}
+{'purifier other than Q1000 qsg link': 'https://www.quboworld.com/product-information/QSG-Q600.pdf'}
+{'Purchase Query Link': 'https://www.quboworld.com/book-online-demo'}
+{'dashcam 3K qsg': 'https://www.quboworld.com/product-information/Dashcam-3k-user.pdf'}
+{'Vdb Pro installation link': 'https://www.youtube.com/watch?v=9VxBO0sILYg'}
